@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeTemplates version="3.0">
+  <CodeTemplate version="2.0">
+    <Header>
+      <_Group>C#</_Group>
+      <Version />
+      <MimeType>text/x-csharp</MimeType>
+      <Shortcut>QuickButton</Shortcut>
+      <_Description>QuickButton attribute</_Description>
+      <TemplateType>Unknown</TemplateType>
+    </Header>
+    <Variables>
+      <Variable name="gameObject Name">
+        <Default>gameObject name</Default>
+      </Variable>
+      <Variable name="method name">
+        <Default>method name</Default>
+      </Variable>
+      <Variable name="Button Label Text">
+        <Default>Button Label Text</Default>
+      </Variable>
+      <Variable name="junkVariableName">
+        <Default>junkVariableName</Default>
+      </Variable>
+    </Variables>
+    <Code><![CDATA[[QuickButton ("$gameObject Name$", "$method name$", "$Button Label Text$", QuickButtonColour.red)]
+public bool $junkVariableName$;]]></Code>
+  </CodeTemplate>
+</CodeTemplates>
